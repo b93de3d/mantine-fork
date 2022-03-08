@@ -1,0 +1,27 @@
+---
+group: 'mantine-hooks'
+package: '@mantine/hooks'
+title: 'use-media-query'
+category: 'dom'
+order: 1
+slug: /hooks/use-media-query/
+description: 'Subscribe to media queries with window.matchMedia'
+import: "import { useMediaQuery } from '@mantine/hooks';"
+docs: 'hooks/use-media-query.mdx'
+source: 'mantine-hooks/src/use-media-query/use-media-query.ts'
+---
+
+import { HooksDemos } from '@mantine/demos';
+
+## Usage
+
+use-media-query hook allows to subscribe to media queries.
+It receives media query as an argument and returns true
+if given media query matches current state.
+Hook relies on `window.matchMedia()` [API](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
+and will always return false if api is not available (e.g. during server side rendering).
+
+Hook takes media query as first argument and returns true if query is satisfied.
+Resize browser window to trigger `window.matchMedia` event:
+
+<Demo data={HooksDemos.useMediaQueryHook} />
