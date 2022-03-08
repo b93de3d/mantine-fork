@@ -22,10 +22,10 @@ lerna-debug.log*
 .env*.local
 
 # build
-lib/
-cjs/
-esm/
-docs/.docgen/
+# lib/
+# cjs/
+# esm/
+# docs/.docgen/
 
 # typescript
 *.tsbuildinfo

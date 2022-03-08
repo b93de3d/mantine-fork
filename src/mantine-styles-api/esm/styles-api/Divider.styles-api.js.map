@@ -1,0 +1,1 @@
+{"version":3,"file":"Divider.styles-api.js","sources":["../../src/styles-api/Divider.styles-api.ts"],"sourcesContent":["import { DividerStylesNames } from '@mantine/core';\n\nexport const Divider: Record<DividerStylesNames, string> = {\n  label: 'Label element, horizontal orientation only',\n};\n"],"names":[],"mappings":"AAAY,MAAC,OAAO,GAAG;AACvB,EAAE,KAAK,EAAE,4CAA4C;AACrD;;;;"}

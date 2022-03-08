@@ -1,0 +1,1 @@
+{"version":3,"file":"Calendar.styles-api.js","sources":["../../src/styles-api/Calendar.styles-api.ts"],"sourcesContent":["import { CalendarBase } from './CalendarBase.styles-api';\n\nexport const Calendar = CalendarBase;\nexport const RangeCalendar = CalendarBase;\n"],"names":[],"mappings":";;AACY,MAAC,QAAQ,GAAG,aAAa;AACzB,MAAC,aAAa,GAAG;;;;"}

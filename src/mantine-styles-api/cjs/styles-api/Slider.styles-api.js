@@ -1,0 +1,21 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+const Slider = {
+  root: "Root element",
+  track: "Track element, contains all other elements",
+  bar: "Filled part of the track",
+  thumb: "Main control",
+  dragging: "Styles added to thumb while dragging",
+  label: "Label element, displayed above thumb",
+  markWrapper: "Wrapper around mark, contains mark and mark label",
+  mark: "Mark displayed on the track",
+  markFilled: "Styles added to mark when it is located in filled area",
+  markLabel: "Mark label, displayed below track"
+};
+const RangeSlider = Slider;
+
+exports.RangeSlider = RangeSlider;
+exports.Slider = Slider;
+//# sourceMappingURL=Slider.styles-api.js.map

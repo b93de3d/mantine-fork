@@ -1,0 +1,17 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+const Timeline = {
+  item: "Item root element",
+  itemBody: "Item body, wraps title and content",
+  itemTitle: "Item title, controlled by title prop",
+  itemContent: "Item content, controlled by children prop",
+  itemLineActive: "Item modifier, with active line",
+  itemActive: "Item modifier, active state",
+  itemBullet: "Item bullet",
+  itemBulletWithChild: "Item bullet modifier, with child, controlled by bullet prop"
+};
+
+exports.Timeline = Timeline;
+//# sourceMappingURL=Timeline.styles-api.js.map
